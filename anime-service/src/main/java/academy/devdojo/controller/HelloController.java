@@ -1,4 +1,4 @@
-package academy.devdojo.controllers;
+package academy.devdojo.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +16,7 @@ public class HelloController {
         return "OMAE WA MO SHINDE IRU";
     }
 
+    // Idempotente
     @PostMapping
     public Long save (@RequestBody String name){
         log.info("save '{}'", name);

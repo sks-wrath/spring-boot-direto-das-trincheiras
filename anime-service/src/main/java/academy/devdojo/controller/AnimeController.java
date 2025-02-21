@@ -1,4 +1,4 @@
-package academy.devdojo.controllers;
+package academy.devdojo.controller;
 
 
 import academy.devdojo.domain.Anime;
